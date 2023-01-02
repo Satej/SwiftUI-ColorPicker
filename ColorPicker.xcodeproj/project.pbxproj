@@ -11,6 +11,8 @@
 		C457ACF5296276D000E02797 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457ACF4296276D000E02797 /* ContentView.swift */; };
 		C457ACF7296276D100E02797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C457ACF6296276D100E02797 /* Assets.xcassets */; };
 		C457ACFA296276D100E02797 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C457ACF9296276D100E02797 /* Preview Assets.xcassets */; };
+		C457AD0329627B1F00E02797 /* ColorSwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457AD0229627B1F00E02797 /* ColorSwatch.swift */; };
+		C457AD0529627D4200E02797 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457AD0429627D4200E02797 /* ColorSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C457ACF4296276D000E02797 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C457ACF6296276D100E02797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C457ACF9296276D100E02797 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C457AD0229627B1F00E02797 /* ColorSwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSwatch.swift; sourceTree = "<group>"; };
+		C457AD0429627D4200E02797 /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		C457ACF1296276D000E02797 /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
+				C457AD0229627B1F00E02797 /* ColorSwatch.swift */,
+				C457AD0429627D4200E02797 /* ColorSlider.swift */,
 				C457ACF2296276D000E02797 /* ColorPickerApp.swift */,
 				C457ACF4296276D000E02797 /* ContentView.swift */,
 				C457ACF6296276D100E02797 /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			files = (
 				C457ACF5296276D000E02797 /* ContentView.swift in Sources */,
 				C457ACF3296276D000E02797 /* ColorPickerApp.swift in Sources */,
+				C457AD0529627D4200E02797 /* ColorSlider.swift in Sources */,
+				C457AD0329627B1F00E02797 /* ColorSwatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
